@@ -1,0 +1,287 @@
+/*===========================================================================
+************************* UNIVERSAL CLASSES *********************************
+===========================================================================*/
+
+/* FONT EMBEDDING */
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../../components/fonts/Roboto-Regular.woff') format('woff2'); 
+}
+/* GLYPHICONS EMBEDDING */
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+/* MAIN WIDTH CONTAINER */
+.app-container{
+        margin: auto;
+        width: 90%;
+}
+
+/* full container width */
+.block {
+    float: left;
+    width: 100%;
+}
+
+body{
+    font-family: "Roboto-Regular";
+    margin: 0;
+    color: white;
+    background-image: url('./bg.png');
+    background-color: #e5ddd5;
+
+}
+
+.clearfix{
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.center{
+    text-align: center;
+}
+
+
+.f50{
+    font-size: 50px;
+    font-family: roboto;
+}
+
+.green{
+    background: #054d44;
+}
+
+.shadow{
+    box-shadow: 0px 2px 15px #888888;
+}
+
+.border-bottom{
+    border-bottom: 5px solid white;
+
+}
+
+.heading_color{
+    color: #4a4a4a;
+}
+
+.text_color{
+    color: #a3a3a3;
+}
+.P_M0{
+    padding: 0;
+    margin: 0;
+}
+.bg_none{
+    background: none;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+}
+/*===========================================================================
+************************* UNIVERSAL CLASSES *********************************
+===========================================================================*/
+
+/*----------------------------------------------------------------------------*/
+
+/*===========================================================================
+*****************************CUSTOM CLASSES ********************************
+===========================================================================*/
+
+.header{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.whatsapp{
+    width: 70%;
+    float: left;
+}
+
+.icons{
+    width: 30%;
+    float: right;
+    text-align: right;
+}
+
+.chats{
+    width: 50%;
+    float: left;
+    padding-bottom: 15px;
+}
+
+.users{
+    width: 50%;
+    float: right;
+    padding-bottom: 15px;
+}
+
+.navigation div p{
+    cursor: pointer;
+}
+
+.icon_child{
+    width: 25%;
+    text-align: center;
+    vertical-align: text-bottom;
+    font-size: 40px;
+}
+
+.navigation{
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+.navigation a{
+    color: white;
+    text-decoration: none;
+}
+
+.picture img{
+    border-radius: 50%;
+}
+
+.user {
+    padding: 20px 0px;
+}
+
+.picture {
+    width: 6%;
+    float: left;
+    text-align: center;
+}
+
+.content {
+    width: 91%;
+    float: right;
+    border-bottom: 1px solid #ededed;
+    padding: 1% 0px 1% 0%;
+}
+
+#messageNumber {
+    width: 4%;
+    float: right;
+    padding: 6px 0px;
+}
+
+#number {
+    color: white;
+    font-size: 30px;
+    border: 1px solid #07d25f;
+    border-radius: 100%;
+    text-align: center;
+    background: #07d25f;
+    padding: 0px 10px;
+}
+
+.userPro {
+    width: 85%;
+    float: left;
+}
+
+.name {
+    font-size: 27px;
+}
+
+.status {
+    font-size: 20px;
+}
+
+.chatbox{
+    display: -webkit-box;
+    clear: both;
+}
+/* CHAT BOX - RIGHT */
+.chatbox_right{
+    display: -webkit-box;
+    float: right;
+    clear: both;
+}
+.addText_right{
+    color: black;
+    background: #dcf8c6;
+    border-radius: 0px 6px 6px 6px;
+    padding: 10px;
+}
+/* CHAT BOX - RIGHT */
+.addText{
+    color: black;
+    background: white;
+    border-radius: 0px 6px 6px 6px;
+    padding: 10px;
+}
+
+.inputBox{
+    width: 99.5%;
+    margin: 0 0.5% auto;
+    bottom: 0;
+    position: absolute;
+    padding: 5px;
+}
+
+.input_parent {
+    width: 95%;
+    float: left;
+}
+
+.input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 23px;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.send {
+    width: 5%;
+    float: right;
+    text-align: right;
+}
+
+.send img{
+    background: #006256;
+    padding: 13px;
+    border-radius: 25px;
+}
+
+.userInfoheader{
+    width: 100%;
+}
+
+.userInfo{
+    width: 100%;
+    background: #075e54;
+    padding: 20px 0;
+}
+
+.userName {
+    font-size: 27px;
+    width: 91%;
+    float: right;
+    padding: 1.1% 0;
+}
+ .closeChat{
+    float: right;
+    padding: 0px 20px 0 0;
+    cursor: pointer;
+}
+/*===========================================================================
+*****************************CUSTOM CLASSES ********************************
+===========================================================================*/
+
+/*----------------------------------------------------------------------------*/
+
+/*===========================================================================
+***************************** MEDIA QUERY ********************************
+===========================================================================*/
+
+@media only screen and (max-width: 736px) {
+
+}
+
+/*===========================================================================
+***************************** MEDIA QUERY ********************************
+===========================================================================*/
